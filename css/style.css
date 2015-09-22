@@ -1,0 +1,41 @@
+/*
+
+This is our css file, we're going to make stuff look pretty 🌸🌺
+
+*/
+
+* {
+  /**
+   * This is a comment in css
+   * "*" is a wildcard, it means DO THIS TO EVERYTHING
+   */
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  outline: none;
+}
+
+html  {
+  background-color: #E6E6E6
+}
+
+button {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	padding:16px 31px;
+}
+
+button:hover {
+	background-color:#5cbf2a;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
