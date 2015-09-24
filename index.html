@@ -17,10 +17,7 @@ comments to explain what they do.
   <meta name="Author" content=""/>
   <!-- This is a stylesheet, it's going to use css to style your page -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- This is a script element, it runs javascript files javascript makes your page do stuff -->
-  <script src="js/main.js" charset="utf-8"></script>
   <!-- The elements have an attribute named "href" which is the path of the file they load -->
-  <script src="lib/jquery-2.1.4.min.js" charset="utf-8"></script>
 
 </head>
 <body>
@@ -40,14 +37,21 @@ comments to explain what they do.
 
       <p>
         Mess aroung with this web page a bit, maybe so something fun with javascript <br>
-        Oh hey... go check out main.js!
+        Oh hey... go check out main.js! (but click the button first)
       </p>
 
       <br><br>
 
-      <button type="button" onclick="doSomething(); return true">I do javascript</button>
+      <button type="button" id="memeButton">I do javascript</button>
 
     </div>
   </div>
 </body>
+
+<!-- This is a script element, it runs javascript files javascript makes your page do stuff -->
+<!-- We put it at the bottom of the page because we're letting all the lelements load first
+     then we'll change the elements with javascript. try putting the scripts at the top -->
+<script src="lib/jquery-2.1.4.min.js" charset="utf-8"></script>
+<script src="js/main.js" charset="utf-8"></script>
+
 </html>
