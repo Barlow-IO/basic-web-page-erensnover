@@ -12,7 +12,7 @@ function doSomething() {
  * the $ is just jQuery looking slick. jQuery makes a variable named `$`
  * and put's it in the document so you can access it
  */
-var $memeButton = $('memeButton');
+var $memeButton = $('#memeButton');
 
 // this sets an event so that every time
 $memeButton.click(doSomething);
