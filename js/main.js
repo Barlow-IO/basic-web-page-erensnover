@@ -20,6 +20,16 @@ $memeButton.click(doSomething);
 // YOUR MISSION:
 /* Every time #memeButton is clicked, it should go to the next meme,
  * it can choose a meme at random or it can just go based on an order
- * also make a button to add/remove the `pink` class from #meme
+ */
+
+function changeMeme() {
+
+}
+
+$memeButton.click(changeMeme);
+
+/* Now make a button to add/remove the `pink` class from #meme
  * this should use jQuery's `addClass` and `removeClass` functions
+ * NOTICE: you'll have to add a pink button in the html file
+ * and style it with css
  */

@@ -19,7 +19,7 @@ html {
   background-color: #E6E6E6
 }
 
-button {
+#memeButton {
   background-color: #44c767;
   -moz-border-radius: 28px;
   -webkit-border-radius: 28px;
@@ -30,7 +30,7 @@ button {
   padding: 16px 31px;
 }
 
-button:hover {
+#memeButton:hover {
   background-color: #5cbf2a;
 }
 
